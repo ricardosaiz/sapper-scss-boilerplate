@@ -1767,18 +1767,6 @@ inherits@2, inherits@~2.0.0, inherits@~2.0.3:
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
 
-intl-messageformat-parser@^1.8.1:
-  version "1.8.1"
-  resolved "https://registry.yarnpkg.com/intl-messageformat-parser/-/intl-messageformat-parser-1.8.1.tgz#0eb14c5618333be4c95c409457b66c8c33ddcc01"
-  integrity sha512-IMSCKVf0USrM/959vj3xac7s8f87sc+80Y/ipBzdKy4ifBv5Gsj2tZ41EAaURVg01QU71fYr77uA8Meh6kELbg==
-
-intl-messageformat@^4.0.1:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/intl-messageformat/-/intl-messageformat-4.4.0.tgz#aa196a4d04b573f4090bc417f982d81de4f74fad"
-  integrity sha512-z+Bj2rS3LZSYU4+sNitdHrwnBhr0wO80ZJSW8EzKDBowwUe3Q/UsvgCGjrwa+HPzoGCLEb9HAjfJgo4j2Sac8w==
-  dependencies:
-    intl-messageformat-parser "^1.8.1"
-
 invariant@^2.2.2:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
@@ -2142,11 +2130,6 @@ merge-stream@^2.0.0:
   resolved "https://registry.yarnpkg.com/merge-stream/-/merge-stream-2.0.0.tgz#52823629a14dd00c9770fb6ad47dc6310f2c1f60"
   integrity sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w==
 
-micro-memoize@^4.0.7:
-  version "4.0.8"
-  resolved "https://registry.yarnpkg.com/micro-memoize/-/micro-memoize-4.0.8.tgz#b2bd9fb57817fe5dc1eb1010b37b3f7695aef9a8"
-  integrity sha512-Mzlo15iWNrP5EwokGjx0Wlh2b3aMjTPdpsD+ryQtkYJBD67IxBddWU2fO3MIXRtXDH8NsuhaotTrtDbfb+k6jw==
-
 mime-db@1.40.0:
   version "1.40.0"
   resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.40.0.tgz#a65057e998db090f732a68f6c276d387d4126c32"
@@ -2361,11 +2344,6 @@ object-keys@^1.0.11, object-keys@^1.0.12, object-keys@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
   integrity sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==
-
-object-resolve-path@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/object-resolve-path/-/object-resolve-path-1.1.1.tgz#a7f8f93e8a20af80e44217ba7db54316d9d12232"
-  integrity sha1-p/j5Poogr4DkQhe6fbVDFtnRIjI=
 
 object.assign@^4.1.0:
   version "4.1.0"
@@ -3251,10 +3229,10 @@ safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sapper@^0.27.0:
-  version "0.27.9"
-  resolved "https://registry.yarnpkg.com/sapper/-/sapper-0.27.9.tgz#c3ec00b44dd35d25e89d2d697c9bb1d27409dbe4"
-  integrity sha512-v3b3UgGeVhFUOpA5IZgdThdr4nZ6aMH6IxDsg1Yu2UWHWEV9vW/Zehch9M/xqJNp/x9n9X+S9syJg1s5QOOmFA==
+sapper@^0.27.11:
+  version "0.27.11"
+  resolved "https://registry.yarnpkg.com/sapper/-/sapper-0.27.11.tgz#46877abe8a386bee62b9decfe9932fe37f5464f7"
+  integrity sha512-5EaPZhlc8OnyN3UCI6dRSM1Gz5sxyzLZG/1z5nMvZhg9Ng+rSvEvJx/rW/tSHcnQPa8or7+YcbfvQHKS5oPHiw==
   dependencies:
     html-minifier "^4.0.0"
     http-link-header "^1.0.2"
@@ -3571,15 +3549,6 @@ supports-color@^6.1.0:
   integrity sha512-qe1jfm1Mg7Nq/NSh6XE24gPXROEVsWHxC1LIx//XNlD9iw7YZQGjZNjYN7xGaEG6iKdA8EtNFW6R0gjnVXp+wQ==
   dependencies:
     has-flag "^3.0.0"
-
-svelte-i18n@^1.1.2-beta:
-  version "1.1.2-beta"
-  resolved "https://registry.yarnpkg.com/svelte-i18n/-/svelte-i18n-1.1.2-beta.tgz#f4c22aaee22022351cc26ffdd628b89680218e3c"
-  integrity sha512-OgjRHgLmx30q1xrXRb63a94xogvrXTUu/D2pwcSPXsg9NqFy/VX9sWoy8c3VgH72hDWpSAoBTCE7npSMC7acUA==
-  dependencies:
-    intl-messageformat "^4.0.1"
-    micro-memoize "^4.0.7"
-    object-resolve-path "^1.1.1"
 
 svelte-preprocess@^3.1.2:
   version "3.1.2"
